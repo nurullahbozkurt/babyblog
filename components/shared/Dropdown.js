@@ -2,7 +2,7 @@ import { Menu, Transition } from "@headlessui/react";
 import { Fragment } from "react";
 import { MdKeyboardArrowDown } from "react-icons/md";
 
-export default function Example() {
+export default function Dropdown() {
   return (
     <div>
       <Menu as="div" className="relative inline-block text-left">
