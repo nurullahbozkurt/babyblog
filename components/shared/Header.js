@@ -36,7 +36,7 @@ const Header = () => {
   return (
     <>
       <div>
-        <div className="flex items-center justify-center space-x-10 py-5 border-b shadow-md">
+        <div className="flex fixed w-full items-center justify-center space-x-10 py-5 border-b shadow-md z-10 bg-white">
           <button className="relative w-32 h-14">
             <Image
               alt=""

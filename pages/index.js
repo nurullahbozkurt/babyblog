@@ -1,5 +1,11 @@
 import Head from "next/head";
 import Header from "../components/shared/Header";
+import Image from "next/image";
+import { FiFacebook } from "react-icons/fi";
+import { FiInstagram } from "react-icons/fi";
+import { FiTwitter } from "react-icons/fi";
+import { AiFillYoutube } from "react-icons/ai";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,7 +16,326 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <Header />
+        <div className="pb-[120px]">
+          <Header />
+        </div>
+
+        <div className="container mx-auto grid grid-cols-3">
+          <div className="main col-span-2">
+            <div className="grid grid-cols-2 ">
+              <div id="home-post" className="px-5 py-6">
+                <div className="container mx-auto flex flex-col items-center justify-center">
+                  <div className="relative w-80 h-56 xl:w-96 xl:h-64">
+                    <Image
+                      alt=""
+                      src="/baby.jpeg"
+                      objectFit="cover"
+                      layout="fill"
+                    ></Image>
+                  </div>
+                  <div className="w-full flex items-center justify-between pt-2 ">
+                    <h2 className="text-xs text-violet-700">Learning</h2>
+                    <p className="text-xs text-violet-700">February 29, 2022</p>
+                  </div>
+
+                  <h1 className="font-semibold py-2">
+                    PERFECT ROOM FOR LEARNING
+                  </h1>
+                  <div className="">
+                    <p className="line-clamp-4 text-sm leading-7 indent-2 text-gray-600">
+                      {
+                        "  Now that your little one has arrived, you're ready to show her the world. One of the best and fun ways to do that is through play. Now that your little one has arrived, youre ready to show her the world. One of the best and fun ways to do that is through play. Play,..."
+                      }
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="home-post" className="px-5 py-6">
+                <div className="container mx-auto flex flex-col items-center justify-center">
+                  <div className="relative w-80 h-56 xl:w-96 xl:h-64">
+                    <Image
+                      alt=""
+                      src="/image1.jpeg"
+                      objectFit="cover"
+                      layout="fill"
+                    ></Image>
+                  </div>
+                  <div className="w-full flex items-center justify-between pt-2 ">
+                    <h2 className="text-xs text-violet-700">Learning</h2>
+                    <p className="text-xs text-violet-700">February 29, 2022</p>
+                  </div>
+
+                  <h1 className="font-semibold py-2">
+                    PERFECT ROOM FOR LEARNING
+                  </h1>
+                  <div>
+                    <p className="line-clamp-4 text-sm leading-7 indent-2 text-gray-600">
+                      {
+                        "  Now that your little one has arrived, you're ready to show her the world. One of the best and fun ways to do that is through play. Now that your little one has arrived, youre ready to show her the world. One of the best and fun ways to do that is through play. Play,..."
+                      }
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="home-post" className="px-5 py-6">
+                <div className="container mx-auto flex flex-col items-center justify-center">
+                  <div className="relative w-80 h-56 xl:w-96 xl:h-64">
+                    <Image
+                      alt=""
+                      src="/image2.jpeg"
+                      objectFit="cover"
+                      layout="fill"
+                    ></Image>
+                  </div>
+                  <div className="w-full flex items-center justify-between pt-2 ">
+                    <h2 className="text-xs text-violet-700">Learning</h2>
+                    <p className="text-xs text-violet-700">February 29, 2022</p>
+                  </div>
+
+                  <h1 className="font-semibold py-2">
+                    PERFECT ROOM FOR LEARNING
+                  </h1>
+                  <div>
+                    <p className="line-clamp-4 text-sm leading-7 indent-2 text-gray-600">
+                      {
+                        "  Now that your little one has arrived, you're ready to show her the world. One of the best and fun ways to do that is through play. Now that your little one has arrived, youre ready to show her the world. One of the best and fun ways to do that is through play. Play,..."
+                      }
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="home-post" className="px-5 py-6">
+                <div className="container mx-auto flex flex-col items-center justify-center">
+                  <div className="relative w-80 h-56 xl:w-96 xl:h-64">
+                    <Image
+                      alt=""
+                      src="/image3.jpeg"
+                      objectFit="cover"
+                      layout="fill"
+                    ></Image>
+                  </div>
+                  <div className="w-full flex items-center justify-between pt-2 ">
+                    <h2 className="text-xs text-violet-700">Learning</h2>
+                    <p className="text-xs text-violet-700">February 29, 2022</p>
+                  </div>
+
+                  <h1 className="font-semibold py-2">
+                    PERFECT ROOM FOR LEARNING
+                  </h1>
+                  <div>
+                    <p className="line-clamp-4 text-sm leading-7 indent-2 text-gray-600">
+                      {
+                        "  Now that your little one has arrived, you're ready to show her the world. One of the best and fun ways to do that is through play. Now that your little one has arrived, youre ready to show her the world. One of the best and fun ways to do that is through play. Play,..."
+                      }
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="home-post" className="px-5 py-6">
+                <div className="container mx-auto flex flex-col items-center justify-center">
+                  <div className="relative w-80 h-56 xl:w-96 xl:h-64">
+                    <Image
+                      alt=""
+                      src="/image4.jpeg"
+                      objectFit="cover"
+                      layout="fill"
+                    ></Image>
+                  </div>
+                  <div className="w-full flex items-center justify-between pt-2 ">
+                    <h2 className="text-xs text-violet-700">Learning</h2>
+                    <p className="text-xs text-violet-700">February 29, 2022</p>
+                  </div>
+
+                  <h1 className="font-semibold py-2">
+                    PERFECT ROOM FOR LEARNING
+                  </h1>
+                  <div>
+                    <p className="line-clamp-4 text-sm leading-7 indent-2 text-gray-600">
+                      {
+                        "  Now that your little one has arrived, you're ready to show her the world. One of the best and fun ways to do that is through play. Now that your little one has arrived, youre ready to show her the world. One of the best and fun ways to do that is through play. Play,..."
+                      }
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id="home-post" className="px-5 py-6">
+                <div className="container mx-auto flex flex-col items-center justify-center">
+                  <div className="relative w-80 h-56 xl:w-96 xl:h-64">
+                    <Image
+                      alt=""
+                      src="/baby.jpeg"
+                      objectFit="cover"
+                      layout="fill"
+                    ></Image>
+                  </div>
+                  <div className="w-full flex items-center justify-between pt-2 ">
+                    <h2 className="text-xs text-violet-700">Learning</h2>
+                    <p className="text-xs text-violet-700">February 29, 2022</p>
+                  </div>
+
+                  <h1 className="font-semibold py-2">
+                    IS READING A MUST AT FIVE?
+                  </h1>
+                  <div>
+                    <p className="line-clamp-4 text-sm leading-7 indent-2 text-gray-600">
+                      {
+                        "  Now that your little one has arrived, you're ready to show her the world. One of the best and fun ways to do that is through play. Now that your little one has arrived, youre ready to show her the world. One of the best and fun ways to do that is through play. Play,..."
+                      }
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="sidebar col-span-1 pl-5">
+            <div className="py-6 flex flex-col items-center space-y-7">
+              {" "}
+              <div className="w-full border flex items-center justify-center border-pink-300 py-1 mx-4">
+                <h4>Best Pediatrician Of The Week</h4>
+              </div>
+              <div className="flex flex-col items-center justify-center space-y-4">
+                <div className="relative w-80 h-80 ">
+                  <Image
+                    className="rounded-full"
+                    src="/doctor.jpeg"
+                    alt=""
+                    objectFit="cover"
+                    layout="fill"
+                  />
+                </div>
+                <h1 className="text-center text-sm text-gray-600 px-4">
+                  I’m <span className="font-bold">Emma Clarke</span>, devoted
+                  mother of a wonderful baby boy, Alex. I love writing useful
+                  articles on my blog! I hope you enjoy your stay!
+                </h1>
+                <div className="w-full flex items-center justify-center gap-7">
+                  <Link href="/">
+                    <a className="relative text-5xl w-12 h-12 p-1.5 rounded-full flex items-center justify-center">
+                      <Image
+                        layout="fill"
+                        objectFit="cover"
+                        src="/facebook.png"
+                        alt="youtube"
+                      />
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="relative text-5xl w-[54px] h-[54px] p-1.5 rounded-full flex items-center justify-center">
+                      <Image
+                        layout="fill"
+                        objectFit="cover"
+                        src="/instagram.png"
+                        alt="youtube"
+                      />
+                    </a>
+                  </Link>
+
+                  <Link href="/">
+                    <a className="relative text-5xl w-12 h-12 p-1.5  rounded-full border flex items-center justify-center">
+                      <Image
+                        layout="fill"
+                        objectFit="cover"
+                        src="/twitter.png"
+                        alt="youtube"
+                      />
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="relative text-5xl w-12 h-12 p-1.5 rounded-full flex items-center justify-center">
+                      <Image
+                        layout="fill"
+                        objectFit="cover"
+                        src="/youtube.png"
+                        alt="youtube"
+                      />
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="w-full space-y-5 py-5">
+                <div className="w-full border flex items-center justify-center border-pink-300 py-1 mx-4">
+                  <h4>RECENT POSTS</h4>
+                </div>
+                <div className="flex flex-col items-start justify-center space-y-4 mx-4 text-sm font-semibold">
+                  <Link href="/">
+                    <a className="w-full border-b py-1 border-dotted hover:text-violet-700">
+                      The Best Baby Toy Ever
+                    </a>
+                  </Link>
+                  <Link
+                    href="/"
+                    className="w-full border-b py-1 border-dotted hover:text-violet-700"
+                  >
+                    <a className="w-full border-b py-1 border-dotted hover:text-violet-700">
+                      Best Car Seat Installed
+                    </a>
+                  </Link>
+                  <Link
+                    href="/"
+                    className="w-full border-b py-1 border-dotted hover:text-violet-700"
+                  >
+                    <a className="w-full border-b py-1 border-dotted hover:text-violet-700">
+                      The Bag Baby Carrier
+                    </a>
+                  </Link>
+                  <Link
+                    href="/"
+                    className="w-full border-b py-1 border-dotted hover:text-violet-700"
+                  >
+                    <a className="w-full border-b py-1 border-dotted hover:text-violet-700">
+                      Review Finale: That’s A Wrap!
+                    </a>
+                  </Link>
+                  <Link
+                    href="/"
+                    className="w-full border-b py-1 border-dotted hover:text-violet-700"
+                  >
+                    <a className="w-full border-b py-1 border-dotted hover:text-violet-700">
+                      Baby Cribs – How We Used It
+                    </a>
+                  </Link>
+                </div>
+              </div>
+              <div className="w-full space-y-5 py-5">
+                <div className="w-full border flex items-center justify-center border-pink-300 py-1 mx-4">
+                  <h4>POPULAR CATEGORIES</h4>
+                </div>
+                <div className="flex flex-col items-start justify-center space-y-4 mx-4 text-sm font-semibold">
+                  <Link href="/">
+                    <a className="w-full flex items-center justify-between border-b py-1 border-dotted hover:text-violet-700">
+                      <span>Learning</span>
+                      <span>5</span>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="w-full flex items-center justify-between border-b py-1 border-dotted hover:text-violet-700">
+                      <span>Pregnancy</span>
+                      <span>5</span>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="w-full flex items-center justify-between border-b py-1 border-dotted hover:text-violet-700">
+                      <span>Birth</span>
+                      <span>4</span>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="w-full flex items-center justify-between border-b py-1 border-dotted hover:text-violet-700">
+                      <span>Life</span>
+                      <span>4</span>
+                    </a>
+                  </Link>
+                  <Link href="/">
+                    <a className="w-full flex items-center justify-between border-b py-1 border-dotted hover:text-violet-700">
+                      <span>Moments</span>
+                      <span>3</span>
+                    </a>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

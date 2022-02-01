@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function DropdownNav({ items }) {
   const [select, setSelect] = useState("");
   return (
-    <div>
+    <div className="z-10">
       <Menu as="div" className="relative inline-block text-left">
         <div>
           <Menu.Button className="flex items-center justify-center">
@@ -32,13 +32,13 @@ export default function DropdownNav({ items }) {
               className="absolute top-5  left-[-313px] flex items-center justify-center p-1  origin-top-right bg-white divide-y divide-gray-100 rounded-md shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-non"
             >
               <div className="flex items-start justify-center h-full w-full">
-                <div className="text-gray-800 flex border-y border-l flex-col text-sm bg-newGray">
+                <div className="text-gray-800 flex bg-newGray/30 flex-col text-sm ">
                   {items?.map((item, index) => (
                     <div
                       key={index}
                       className={
                         select === item.title
-                          ? `w-full flex items-center justify-end py-2 pl-16  bg-white text-pink-300 border-y border-l  hover:text-pink-300 shadow-sm`
+                          ? `w-full flex items-center justify-end py-2 pl-16 text-pink-500 border-y border-l bg-white  hover:text-pink-300 shadow-sm`
                           : `w-full flex items-center justify-end py-2 pl-16 border-r  hover:bg-white hover:text-pink-300 hover:shadow-sm`
                       }
                     >
@@ -55,8 +55,9 @@ export default function DropdownNav({ items }) {
 
                 <div className="w-full  flex items-center justify-center  mt-2 px-3  gap-2">
                   <div className="flex flex-col items-center justify-center hover:text-pink-500 cursor-pointer">
-                    <div className="relative w-56 h-40">
+                    <div className="relative  w-56 h-40">
                       <Image
+                        className="rounded"
                         alt="Mountains"
                         src="/baby.jpeg"
                         layout="fill"
@@ -72,6 +73,7 @@ export default function DropdownNav({ items }) {
                   <div className="flex flex-col items-center justify-center hover:text-pink-500 cursor-pointer">
                     <div className="relative w-56 h-40">
                       <Image
+                        className="rounded"
                         alt="Mountains"
                         src="/baby.jpeg"
                         layout="fill"
@@ -87,6 +89,7 @@ export default function DropdownNav({ items }) {
                   <div className="flex flex-col items-center justify-center hover:text-pink-500 cursor-pointer">
                     <div className="relative w-56 h-40">
                       <Image
+                        className="rounded"
                         alt="Mountains"
                         src="/baby.jpeg"
                         layout="fill"

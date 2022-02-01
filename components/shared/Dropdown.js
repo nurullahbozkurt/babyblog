@@ -5,7 +5,7 @@ import { MdKeyboardArrowDown } from "react-icons/md";
 export default function Dropdown() {
   return (
     <div>
-      <Menu as="div" className="relative inline-block text-left">
+      <Menu as="div" className="relative inline-block text-left z-10">
         <div>
           <Menu.Button className="flex items-center justify-center">
             More
