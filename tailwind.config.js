@@ -9,6 +9,9 @@ module.exports = {
     },
 
     extend: {
+      backgroundImage: {
+        family: "url('/bg-baby.webp')",
+      },
       colors: {
         newGray: "#f4f4f4",
       },

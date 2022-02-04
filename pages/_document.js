@@ -12,7 +12,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body className=" font-nunito">
+        <body className="font-nunito">
           <Main />
           <NextScript />
         </body>
